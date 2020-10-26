@@ -1,0 +1,7 @@
+#lockeduser.api/node_modules
+.git
+.gitignore
+*.tar
+.vscode
+lockeduser.Api/Docker-compose.yml
+lockeduser.api/dockerfile

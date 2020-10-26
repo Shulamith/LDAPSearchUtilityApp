@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    utilityapp:
+      image: dotdevrhmsapp01.dot.nycnet:5000/dot.nycstreets.utilties.ldapsearch
+      secrets:
+        - user_secret
+        - pwd_secret
+secrets:
+    user_secret:
+        file: ./config_user.txt
+    pwd_secret:
+        file: ./config_password.txt
