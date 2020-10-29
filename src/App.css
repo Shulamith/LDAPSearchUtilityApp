@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+.App-form {
+  text-align: middle;
+  align-items: center;
+  color:white;
+  font-size: calc(10px + 2vmin);
+  display:flex ;
+  flex-direction: column;
+}
+.App-form-input{
+  color:black;
+}
+
+
+.App-header {
+  display: flex;
+  min-height: 50vh;
+  position: top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+.App-response {
+  display: flex;
+  background-color:#282c34;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: -145px;
+}
+
+
+
+
+
